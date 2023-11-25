@@ -6,9 +6,9 @@ const ProjectCard = ({ id, img, url, github, title, technologies }) => {
       <img
         src={img}
         alt="Project preview img"
-        className="w-full h-64 object-cover object-center"
+        className="w-full h-64 object-cover"
       />
-      <div className=" p-8 flex flex-col gap-8 ">
+      <div className=" p-8 flex flex-col gap-8">
         <h3 className=" font-bold text-2xl capitalize">{title}</h3>
         <div className="flex flex-wrap gap-4">
           {technologies.map((t) => {

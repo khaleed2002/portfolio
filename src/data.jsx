@@ -76,6 +76,20 @@ export const projects = [
     url: 'https://img4you.netlify.app/',
     github: 'https://github.com/khaleed2002/react-img4you',
     title: 'IMG4You',
-    technologies: ['React', 'React Query', 'Axios', 'Responsive','Lazy Loading'],
+    technologies: [
+      'React',
+      'React Query',
+      'Axios',
+      'Responsive',
+      'Lazy Loading',
+    ],
+  },
+  {
+    id: nanoid(),
+    img: 'https://raw.githubusercontent.com/khaleed2002/portfolio/main/project_preview_images/color-generator.png',
+    url: 'https://react-color-generator-1.netlify.app/',
+    github: 'https://github.com/khaleed2002/react-color-generator',
+    title: 'Color Generator',
+    technologies: ['React', 'Responsive', 'Toastify Alerts'],
   },
 ]
