@@ -3,7 +3,6 @@ import { FaHtml5, FaJs, FaReact, FaDatabase } from 'react-icons/fa'
 import { SiTailwindcss } from 'react-icons/si'
 import { MdOutlineSwapCalls } from 'react-icons/md'
 import { SlGraph } from 'react-icons/sl'
-import mixMaster from '/src/assets/mix-master.png'
 export const links = [
   { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#skills', text: 'skills' },
@@ -59,7 +58,7 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
-    img: { mixMaster },
+    img: 'https://raw.githubusercontent.com/khaleed2002/portfolio/main/project_preview_images/mix-master.png',
     url: 'https://react-mix-master-1.netlify.app/',
     github: 'https://github.com/khaleed2002/react-mix-master',
     title: 'first project',
