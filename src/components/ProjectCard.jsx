@@ -9,7 +9,7 @@ const ProjectCard = ({ id, img, url, github, title, technologies }) => {
         className="w-full h-64 object-cover"
       />
       <div className=" p-8 flex flex-col gap-8">
-        <h3 className=" font-bold text-2xl capitalize">{title}</h3>
+        <h3 className=" font-bold text-2xl capitalize tracking-wide">{title}</h3>
         <div className="flex flex-wrap gap-4">
           {technologies.map((t) => {
             return (
