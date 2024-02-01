@@ -58,6 +58,13 @@ export const skills = [
 export const projects = [
   {
     id: nanoid(),
+    img: 'https://raw.githubusercontent.com/khaleed2002/portfolio/main/project_preview_images/nodejs_task-manager.png',
+    github: 'https://github.com/khaleed2002/nodejs_task-manager-app',
+    title: 'Task manager',
+    technologies: ['Node js', 'Express js', 'MongoDB', 'mongoose'],
+  },
+  {
+    id: nanoid(),
     img: 'https://raw.githubusercontent.com/khaleed2002/portfolio/main/project_preview_images/mix-master.png',
     url: 'https://react-mix-master-1.netlify.app/',
     github: 'https://github.com/khaleed2002/react-mix-master',
