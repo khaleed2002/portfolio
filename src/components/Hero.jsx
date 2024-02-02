@@ -8,7 +8,7 @@ const Hero = () => {
         <article className="flex flex-col gap-4">
           <h1 className="text-7xl font-bold tracking-wider">I'm Khaled</h1>
           <p className=" capitalize text-slate-700 text-3xl">
-            front-end developer
+            Software Engineer
           </p>
           <p className=" text-slate-700 text-lg">
             Code lover with passion about Algorithms, Datastructure and AI
