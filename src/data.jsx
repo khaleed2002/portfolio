@@ -65,6 +65,13 @@ export const projects = [
   },
   {
     id: nanoid(),
+    img: 'https://raw.githubusercontent.com/khaleed2002/portfolio/main/project_preview_images/nodejs_chat-app.png',
+    github: 'https://github.com/khaleed2002/nodejs_chat-app',
+    title: 'Chat app',
+    technologies: ['Node js', 'Socket.io'],
+  },
+  {
+    id: nanoid(),
     img: 'https://raw.githubusercontent.com/khaleed2002/portfolio/main/project_preview_images/mix-master.png',
     url: 'https://react-mix-master-1.netlify.app/',
     github: 'https://github.com/khaleed2002/react-mix-master',
