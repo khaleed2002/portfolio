@@ -1,6 +1,6 @@
 import { nanoid } from 'nanoid'
-import { FaHtml5, FaJs, FaReact, FaDatabase } from 'react-icons/fa'
-import { SiTailwindcss } from 'react-icons/si'
+import { FaHtml5, FaJs, FaReact, FaDatabase, FaNode } from 'react-icons/fa'
+import { SiTailwindcss, SiExpress, SiMongodb } from 'react-icons/si'
 import { MdOutlineSwapCalls } from 'react-icons/md'
 import { SlGraph } from 'react-icons/sl'
 export const links = [
@@ -11,6 +11,24 @@ export const links = [
 ]
 
 export const skills = [
+  {
+    id: nanoid(),
+    title: 'Node.js',
+    icon: <FaNode className="h-16 w-16 text-emerald-500" />,
+    text: 'Expertise in Node.js, proficiently architecting robust backend systems and APIs for seamless and efficient application functionalities.',
+  },
+  {
+    id: nanoid(),
+    title: 'Express.js',
+    icon: <SiExpress className="h-16 w-16 text-emerald-500" />,
+    text: 'Skilled in Express.js, adeptly designing and implementing scalable web applications with streamlined routes and middleware for enhanced performance and flexibility.',
+  },
+  {
+    id: nanoid(),
+    title: 'MongoDB',
+    icon: <SiMongodb className="h-16 w-16 text-emerald-500" />,
+    text: 'Experienced with MongoDB, proficiently integrating NoSQL databases to build dynamic and efficient data-driven applications, ensuring optimal scalability and performance.',
+  },
   {
     id: nanoid(),
     title: 'HTML&CSS',
