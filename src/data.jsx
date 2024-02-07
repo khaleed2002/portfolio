@@ -1,6 +1,11 @@
 import { nanoid } from 'nanoid'
 import { FaHtml5, FaJs, FaReact, FaDatabase, FaNode } from 'react-icons/fa'
-import { SiTailwindcss, SiExpress, SiMongodb } from 'react-icons/si'
+import {
+  SiTailwindcss,
+  SiExpress,
+  SiMongodb,
+  SiSocketdotio,
+} from 'react-icons/si'
 import { MdOutlineSwapCalls } from 'react-icons/md'
 import { SlGraph } from 'react-icons/sl'
 export const links = [
@@ -28,6 +33,12 @@ export const skills = [
     title: 'MongoDB',
     icon: <SiMongodb className="h-16 w-16 text-emerald-500" />,
     text: 'Experienced with MongoDB, proficiently integrating NoSQL databases to build dynamic and efficient data-driven applications, ensuring optimal scalability and performance.',
+  },
+  {
+    id: nanoid(),
+    title: 'Socket.IO',
+    icon: <SiSocketdotio className="h-16 w-16 text-emerald-500" />,
+    text: 'Proficient in Socket.IO, adeptly implementing real-time communication between clients and servers to create interactive and responsive web applications, enhancing user engagement and experience.',
   },
   {
     id: nanoid(),
