@@ -66,6 +66,7 @@ export const projects = [
   {
     id: nanoid(),
     img: 'https://raw.githubusercontent.com/khaleed2002/portfolio/main/project_preview_images/nodejs_chat-app.png',
+    url: 'https://chat-app-6f0z.onrender.com/',
     github: 'https://github.com/khaleed2002/nodejs_chat-app',
     title: 'Chat app',
     technologies: ['Node js', 'Socket.io'],
